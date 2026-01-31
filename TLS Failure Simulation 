@@ -1,0 +1,10 @@
+## TLS Failure Simulation 
+
+Command Used:
+openssl s_client-connect expired.badssl.com:443
+
+Result:
+TLS handshake failed due to invalid certificate, preventing secure Authentication.
+
+Lesson: 
+Applications must deny Authentication when cryptographic trust cannot be established.
