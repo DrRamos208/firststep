@@ -1,12 +1,12 @@
-##Incident Summary
+## Incident Summary
 A TLS Authentication Failure occurred when the client was unable to establish a trusted encrypted session with the server.
 
-##Indicators
+## Indicators
 -UNITYTLS_INTERNAL_ERROR
 -Authentication terminated pre-session
 -Secure channel not established
 
-##Impact Assessment
+## Impact Assessment
 -Confidentiality: Protected
 -Integrity: Protected
 -Availability: Temporarily impacted
